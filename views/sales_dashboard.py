@@ -22,7 +22,7 @@ if "expenses_df" not in st.session_state:
     st.session_state.expenses_df = load_data()
 
 # App UI
-st.title("💸 Expense Tracker")
+st.title(" Expense dashboard")
 
 # Expense Entry Form on Main Page
 st.subheader("➕ Add a New Expense")
