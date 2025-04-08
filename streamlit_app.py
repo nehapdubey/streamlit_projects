@@ -9,20 +9,20 @@ about_page = st.Page(
     default=True,
 )
 Project_1_Page = st.Page(
-    page="views\sales_dashboard.py",
+    page="views/sales_dashboard.py",
     title=" Expense dashboard",
     icon=":material/bar_chart:",
 )
 
 
 Project_2_Page = st.Page(
-    page="views\chatbot.py",
+    page="views/chatbot.py",
     title="chat bot",
     icon=":material/smart_toy:",
 )
 
 Project_3_Page = st.Page(
-    page="views\sentimental.py",
+    page="views/sentimental.py",
     title="Sentimental Analyzer",
     icon=":material/psychology:",
 
